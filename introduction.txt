@@ -1,0 +1,11 @@
+Evolution of DevOps: Initially focused on IT delivery, but now encompasses the entire enterprise.
+Importance of Learning DevOps: Essential for professional growth.
+Training Program Overview:
+Real-Time Examples: Practical, hands-on training.
+Topics Covered: Provisioning a data center in AWS.
+                Infrastructure as code using Terraform.
+                Hosting a DevOps toolchain in AWS, including tools like Jenkins, Ansible, Nexus, Apache, Tomcat, and Docker.
+                Creating a pipeline as code using Jenkins file for a CI/CD pipeline.
+End Goals:
+          Building a virtual private cloud with various components (subnet, Internet Gateway, security groups, etc.).
+          Implementing a Maven-based CI/CD pipeline.

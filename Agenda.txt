@@ -1,0 +1,41 @@
+Training Program Overview:
+
+The program is 100% hands-on and divided into three stages.
+Use of real-time examples from organizations.
+Stage 1: Provisioning Virtual Data Center:
+
+Creating a virtual data center (lab) in AWS.
+Using Terraform for infrastructure as code.
+Hosting a DevOps toolchain: Jenkins, Nexus, Ansible (control machine and managed nodes), and Docker.
+Amazon EC2 instances for the infrastructure.
+Git on local machines and GitHub for source code management.
+Setting Up DevOps Toolchain:
+
+Collaborative setup for Jenkins, Nexus, Ansible, Docker, and GitHub.
+Creating a pipeline as code using Jenkins file for a CI/CD pipeline.
+User Stories and Epics:
+
+Introduction to user stories and their themes (infrastructure, development, operations).
+Epic example: Provisioning infrastructure on AWS using Terraform.
+Breaking epics into smaller user stories for specific tasks.
+High-Level Architecture:
+
+Provisioning VPC, subnet, Internet gateway, security group, route table, and Amazon EC2 instances for various tools.
+Hosting Jenkins, Ansible control machine, Apache Tomcat, Docker, and Nexus on EC2 instances.
+CI/CD Pipeline:
+
+Development team changes to a Maven project.
+Committing changes to GitHub.
+Jenkins pipeline job for continuous integration.
+Pulling source code, creating builds, and publishing artifacts to Sonatype Nexus.
+Using Ansible playbooks for deployment on Apache Tomcat and Docker.
+Summary of Tools:
+
+Git: Version control system on local machines.
+GitHub: Web-based Git repository hosting service.
+Jenkins: Automation server for continuous integration.
+Maven: Build automation tool.
+Nexus: Maven repository for build artifacts.
+Ansible: Deployment and configuration management tool.
+Apache Tomcat and Docker: Deployment platforms.
+

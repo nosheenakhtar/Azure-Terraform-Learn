@@ -1,0 +1,32 @@
+https://developer.hashicorp.com/terraform/install
+
+
+Instructions for Installing Terraform on Windows
+Download Terraform:
+
+Go to the Terraform download page.
+Select the latest version for Windows (AMD 64).
+Extract the ZIP file:
+
+Download the ZIP file.
+Extract it to your Downloads folder.
+Move the Terraform executable:
+
+Copy the extracted terraform.exe file.
+Create a new folder named Terraform in the C drive (C:\terraform).
+Paste the terraform.exe file into the C:\terraform folder.
+Set up the PATH environment variable:
+
+Open Control Panel.
+Go to "System and Security" > "System" > "Advanced system settings."
+Click on "Environment Variables."
+Find and select the Path variable under "System variables."
+Click "Edit."
+Add a new entry with the path C:\terraform.
+Click "OK" to save and close all dialog boxes.
+Verify the installation:
+
+Open Command Prompt.
+Navigate to the Terraform folder by typing cd C:\terraform.
+Check the Terraform version by typing terraform -version.
+You should see the current version of Terraform displayed.
